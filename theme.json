@@ -1,0 +1,3219 @@
+{
+  "name": "Solarized (dark)",
+  "author": null,
+  "settings": {
+    "foreground": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "background": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "caret": {
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "line_highlight": {
+      "r": 0,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "misspelling": {
+      "r": 255,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "minimap_border": null,
+    "accent": null,
+    "popup_css": null,
+    "phantom_css": null,
+    "bracket_contents_foreground": null,
+    "bracket_contents_options": null,
+    "brackets_foreground": null,
+    "brackets_background": null,
+    "brackets_options": null,
+    "tags_foreground": null,
+    "tags_options": null,
+    "highlight": null,
+    "find_highlight": null,
+    "find_highlight_foreground": null,
+    "gutter": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "gutter_foreground": null,
+    "selection": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "selection_foreground": null,
+    "selection_border": {
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "inactive_selection": null,
+    "inactive_selection_foreground": null,
+    "guide": null,
+    "active_guide": null,
+    "stack_guide": null,
+    "shadow": null
+  },
+  "scopes": [
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "comment"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.documentation"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "string"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "string.regexp"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "constant.character.escape"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "constant.numeric"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "variable"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "variable.function"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "variable.language"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.import",
+                "keyword"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.control.import"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.control.import.from"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.other.import"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.control.at-rule.include"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.control.at-rule.import"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.operator.comparison"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.operator.assignment"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.operator.arithmetic"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "storage"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "storage.modifier"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.control.class"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.name"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.name.class"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.name.type.class"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.other.inherited-class"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.other.attribute-name"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "support"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "support.type"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "support.class"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.name.function"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.variable"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "constant"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "constant.language"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.preprocessor"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.name.section"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "support.function.construct"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.other.new"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "constant.character"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "constant.other"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.name.tag"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.tag.html"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.tag.begin"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.tag.end"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "support.function"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.separator.continuation"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "storage.type"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "support.type.exception"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.other.special-method"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "invalid"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": null,
+        "background": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "string.quoted.double"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "string.quoted.single"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.string"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.brace.square"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.section.brackets"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.brace.round"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.brace.curly"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.section"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.section.block"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.parameters"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.section.group"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "support.constant.color"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "invalid.deprecated.color.w3c-non-standard-color-name.scss"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.selector.css"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.name.tag.css"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.name.tag.scss"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "source.less",
+                "keyword.control.html.elements"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "source.sass",
+                "keyword.control.untitled"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.other.attribute-name.class"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.other.attribute-name.id"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.other.attribute-name.pseudo-element"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.other.attribute-name.tag.pseudo-element"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.other.attribute-name.pseudo-class"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.other.attribute-name.tag.pseudo-class"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "text.html.basic",
+                "meta.tag.other.html"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "text.html.basic",
+                "meta.tag.any.html"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "text.html.basic",
+                "meta.tag.block.any"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "text.html.basic",
+                "meta.tag.inline.any"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "text.html.basic",
+                "meta.tag.structure.any.html"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "text.html.basic",
+                "source.js.embedded.html"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.separator.key-value.html"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "text.html.basic",
+                "entity.other.attribute-name.html"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.tag.xml",
+                "entity.other.attribute-name"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.other.special-method.ruby"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "variable.other.constant.ruby"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "constant.other.symbol.ruby"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.other.special-method.ruby"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.array",
+                "support.function.construct.php"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.name.function.preprocessor.c"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.preprocessor.c.include"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.preprocessor.macro.c"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.preprocessor.c.include",
+                "string.quoted.other.lt-gt.include.c"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.preprocessor.c.include",
+                "punctuation.definition.string.begin.c"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.preprocessor.c.include",
+                "punctuation.definition.string.end.c"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "other.package.exclude"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "other.remove"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "other.add"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.section.group.tex"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.arguments.begin.latex"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.arguments.end.latex"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.arguments.latex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.group.braces.tex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "string.other.math.tex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "variable.parameter.function.latex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.constant.math.tex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "text.tex.latex",
+                "constant.other.math.tex"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "constant.other.general.math.tex"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "constant.other.general.math.tex"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "constant.character.math.tex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "string.other.math.tex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.string.begin.tex"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.string.end.tex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.control.label.latex"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "text.tex.latex",
+                "constant.other.general.math.tex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "variable.parameter.definition.label.latex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "support.function.be.latex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "support.function.section.latex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "support.function.general.tex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "keyword.control.ref.latex"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "storage.type.class.python"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "storage.type.function.python"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "storage.modifier.global.python"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "support.type.exception.python"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.scope.for-in-loop.shell"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "variable.other.loop.shell"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.scope.case-block.shell"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.scope.case-body.shell"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.logical-expression.shell"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "storage.modifier.c++"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "support.function.perl"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.diff"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.diff.header"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.diff.range"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "markup.deleted"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "markup.changed"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "markup.inserted"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "markup.heading"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "punctuation.definition.heading.markdown"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "markup.quote"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "markup.italic"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": null,
+        "background": null,
+        "font_style": {
+          "bits": 4
+        }
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "markup.bold"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": null,
+        "background": null,
+        "font_style": {
+          "bits": 1
+        }
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "markup.underline.link.markdown"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.link.reference",
+                "constant.other.reference.link.markdown"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "constant.other.reference.link.markdown"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "meta.paragraph.markdown",
+                "meta.dummy.line-break"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": null,
+        "background": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "sublimelinter.notes"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "sublimelinter.outline.illegal"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "sublimelinter.underline.illegal"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": null,
+        "background": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "sublimelinter.outline.warning"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "sublimelinter.underline.warning"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": null,
+        "background": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "sublimelinter.outline.violation"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 255,
+          "a": 255
+        },
+        "background": {
+          "r": 0,
+          "g": 0,
+          "b": 255,
+          "a": 255
+        },
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "sublimelinter.underline.violation"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": null,
+        "background": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "sublimelinter.mark.warning"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "sublimelinter.mark.error"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "sublimelinter.gutter-mark"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "brackethighlighter.all"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "entity.name.filename.find-in-files"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "constant.numeric.line-number.find-in-files"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 0,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "markup.deleted.git_gutter"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 0,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "markup.inserted.git_gutter"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "markup.changed.git_gutter"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 0,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    },
+    {
+      "scope": {
+        "selectors": [
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "variable.other.readwrite.js"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "variable.other.object.js"
+              ]
+            },
+            "excludes": []
+          },
+          {
+            "path": {
+              "clear_stack": [],
+              "scopes": [
+                "variable.other.constant.js"
+              ]
+            },
+            "excludes": []
+          }
+        ]
+      },
+      "style": {
+        "foreground": {
+          "r": 255,
+          "g": 255,
+          "b": 255,
+          "a": 255
+        },
+        "background": null,
+        "font_style": null
+      }
+    }
+  ]
+}

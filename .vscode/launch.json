@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'jssh'",
+      "cargo": {
+        "args": ["build", "--bin=jssh", "--package=jssh"],
+        "filter": {
+          "name": "jssh",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'jssh'",
+      "cargo": {
+        "args": ["test", "--no-run", "--bin=jssh", "--package=jssh"],
+        "filter": {
+          "name": "jssh",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
