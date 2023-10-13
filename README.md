@@ -65,8 +65,6 @@ In order to build this project you would have to clone the repository with `git 
 
 ### Dependencies
 
-The dependencies are quite minimal
-
 First you obviously need rust installed on your system. visit [rust-lang](https://www.rust-lang.org/learn/get-started) to get started.
 
 As `rusty-v8` contains the v8 engine as a binary you do not have to build it yourself but only the wrapper that is `rusty-v8`. If you want to build v8 yourself go over to the [binary-build](https://github.com/denoland/rusty_v8#binary-build) section on their github repo.
@@ -77,4 +75,4 @@ As simple as running `cargo build`.
 
 ## Installation
 
-Currently there is no way of installing JSSh as it is too early imo to be used as a primary shell. If you still want to use it look at how you can build it [here](#how-to-build)
+Currently there is no way of installing JSSh as it is too early imo to be used as a primary shell. If you still want to use it look at how you can build it [here](#how-to-build).
